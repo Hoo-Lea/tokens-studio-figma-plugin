@@ -2668,7 +2668,7 @@
     },
     "border-radius": {
       "base": {
-        "value": "6",
+        "value": "16",
         "type": "borderRadius",
         "description": "Базовое значение, от него высчитывается шкала скруглений"
       }
