@@ -1,5 +1,5 @@
 {
-  "Collection 1/Mode 1": {
+  "Base": {
     "16": {
       "value": "1rem",
       "type": "dimension",
@@ -34,7 +34,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Collection 1/Mode 1"
+      "Base"
     ]
   }
 }
