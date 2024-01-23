@@ -1,0 +1,36 @@
+{
+  "Base": {
+    "Blue": {
+      "value": "#0055FF",
+      "type": "color",
+      "parent": "Collection 1/Mode 1"
+    },
+    "Blue_secondary": {
+      "value": "#D0D8E9",
+      "type": "color",
+      "parent": "Collection 1/Mode 1"
+    },
+    "Blue_border": {
+      "value": "#80aaff",
+      "type": "color",
+      "description": "",
+      "parent": "Collection 1/Mode 1"
+    },
+    "White": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "",
+      "parent": "Collection 1/Mode 1"
+    },
+    "bor r": {
+      "value": "16",
+      "type": "borderRadius"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "Base"
+    ]
+  }
+}
