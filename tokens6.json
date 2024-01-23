@@ -1,0 +1,29 @@
+{
+  "global": {
+    "size": {
+      "value": "16",
+      "type": "sizing"
+    }
+  },
+  "set1": {
+    "bord rad": {
+      "value": "24",
+      "type": "borderRadius"
+    },
+    "orange bright": {
+      "value": "#f49409",
+      "type": "color"
+    },
+    "orange": {
+      "value": "#bb8312",
+      "type": "color"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global",
+      "set1"
+    ]
+  }
+}
