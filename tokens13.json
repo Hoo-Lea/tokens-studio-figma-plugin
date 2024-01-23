@@ -1,0 +1,44 @@
+{
+  "Base": {
+    "16": {
+      "value": "16",
+      "type": "number",
+      "description": "",
+      "parent": "Collection 1/Mode 1"
+    },
+    "Blue": {
+      "value": "#0055ff",
+      "type": "color",
+      "description": "",
+      "parent": "Collection 1/Mode 1"
+    },
+    "Blue_secondary": {
+      "value": "#d0d8e9",
+      "type": "color",
+      "description": "",
+      "parent": "Collection 1/Mode 1"
+    },
+    "Blue_border": {
+      "value": "#80aaff",
+      "type": "color",
+      "description": "",
+      "parent": "Collection 1/Mode 1"
+    },
+    "White": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "",
+      "parent": "Collection 1/Mode 1"
+    },
+    "bor r": {
+      "value": "6",
+      "type": "borderRadius"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "Base"
+    ]
+  }
+}
