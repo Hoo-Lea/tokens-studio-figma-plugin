@@ -1,0 +1,120 @@
+{
+  "default/base": {
+    "base": {
+      "neutral": {
+        "value": "#445371",
+        "type": "color",
+        "description": "Базовое значение цвета, от него высчитывается палитра neutral"
+      },
+      "accent": {
+        "value": "#0055FF",
+        "type": "color",
+        "description": "Базовое значение цвета, от него высчитывается палитра accent"
+      }
+    },
+    "neutral-700": {
+      "value": "{base.neutral}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "darken",
+            "value": "0.3",
+            "space": "srgb"
+          }
+        }
+      }
+    },
+    "status-06-0": {
+      "value": "{base.status-06}",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "lighten",
+            "value": "1",
+            "space": "srgb"
+          }
+        }
+      }
+    },
+    "font": {
+      "family": {
+        "base": {
+          "value": "Manrope",
+          "type": "fontFamilies",
+          "description": "Базовая гарнитура шрифта"
+        },
+        "display": {
+          "value": "{font.family.base}",
+          "type": "fontFamilies",
+          "description": "Гарнитура для display типографики"
+        },
+        "heading": {
+          "value": "{font.family.base}",
+          "type": "fontFamilies",
+          "description": "Гарнитура для heading типографики"
+        },
+        "body": {
+          "value": "{font.family.base}",
+          "type": "fontFamilies",
+          "description": "Гарнитура для body типографики"
+        },
+        "description": {
+          "value": "{font.family.base}",
+          "type": "fontFamilies",
+          "description": "Гарнитура для description типографики"
+        }
+      },
+      "weight": {
+        "bold": {
+          "value": "800",
+          "type": "fontWeights",
+          "description": "Вес шрифта для жирных начертаний"
+        },
+        "semibold": {
+          "value": "600",
+          "type": "fontWeights",
+          "description": "Вес шрифта для полужирных или средних начертаний"
+        },
+        "regular": {
+          "value": "400",
+          "type": "fontWeights",
+          "description": "Вес шрифта для нормальных начертаний"
+        }
+      },
+      "line-height": {
+        "base": {
+          "value": "{font.size.base}",
+          "type": "lineHeights",
+          "description": "Базовое значение, от него высчитывается шкала межстрочного интервала"
+        }
+      }
+    },
+    "border-radius": {
+      "base": {
+        "value": "16",
+        "type": "borderRadius",
+        "description": "Базовое значение, от него высчитывается шкала скруглений"
+      }
+    },
+    "size": {
+      "base": {
+        "value": "16",
+        "type": "sizing",
+        "description": "Базовое значение, от него высчитывается шкала размеров"
+      }
+    },
+    "none": {
+      "value": "rgba(255,255,255,0)",
+      "type": "color",
+      "description": "Токен для значения none. Используется в фигме, так как даже при none токен должен быть назначен. При трансформации токенов из json в CSS переменные заменяется на none"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "default/base"
+    ]
+  }
+}
