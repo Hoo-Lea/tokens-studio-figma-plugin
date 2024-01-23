@@ -1,0 +1,40 @@
+{
+  "Collection 1/Mode 1": {
+    "16": {
+      "value": "1rem",
+      "type": "dimension",
+      "parent": "Collection 1/Mode 1",
+      "description": ""
+    },
+    "Blue": {
+      "value": "#0055ff",
+      "type": "color",
+      "parent": "Collection 1/Mode 1",
+      "description": ""
+    },
+    "Blue_secondary": {
+      "value": "#d0d8e9",
+      "type": "color",
+      "parent": "Collection 1/Mode 1",
+      "description": ""
+    },
+    "Blue_border": {
+      "value": "#80aaff",
+      "type": "color",
+      "parent": "Collection 1/Mode 1",
+      "description": ""
+    },
+    "White": {
+      "value": "#ffffff",
+      "type": "color",
+      "parent": "Collection 1/Mode 1",
+      "description": ""
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "Collection 1/Mode 1"
+    ]
+  }
+}
